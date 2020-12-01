@@ -4,16 +4,19 @@ import Card from 'components/card'
 import { fetchRepos } from './action'
 import { useSelector } from 'react-redux'
 import { Grid } from './styled'
+import Feedback from 'components/feedback'
 
 const Home = () => {
   const repositories = useSelector((state) => state.repositoriesReducer.repos)
-
   return (
     <>
       <Header handleRepositories={fetchRepos} />
       <Grid>
-        {repositories.map((item) => {
-          return (
+        {repositories.length === 0 && (
+          <Feedback message="No repository found" />
+        )}
+        {!repositories.message ? (
+          repositories.map((item) => (
             <Card
               stars={item.stargazers_count}
               key={item.id}
@@ -21,8 +24,10 @@ const Home = () => {
               cloneUrl={item.clone_url}
               license={item.license}
             />
-          )
-        })}
+          ))
+        ) : (
+          <Feedback message={repositories.message} />
+        )}
       </Grid>
     </>
   )
