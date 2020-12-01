@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Feedback /> should render message 1`] = `
+<div
+  class="sc-bdfBwQ iEzmmU"
+>
+  <div
+    class="sc-gsTCUz jDbBII"
+  >
+    <img
+      alt="Not Found"
+      class="sc-hKgILt hvYITf"
+      src="not_found.png"
+    />
+    <h1
+      class="sc-dlfnbm exMniP"
+    >
+      Not Found
+    </h1>
+  </div>
+</div>
+`;
