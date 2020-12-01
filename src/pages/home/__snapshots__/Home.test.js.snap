@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render correct empty img 1`] = `
+<header
+  class="sc-bdfBwQ kPbOlh"
+>
+  <div
+    class="sc-gsTCUz MTRHF"
+  >
+    <a
+      class="sc-hKgILt hgZrkL"
+      href="/"
+    >
+      <img
+        alt="github"
+        class="sc-dlfnbm fyZCaB"
+        src="logo.png"
+      />
+    </a>
+    <div
+      class="sc-eCssSg bbORJx"
+    >
+      <input
+        class="sc-jSgupP eEVRcm"
+        name="userName"
+        placeholder="Search User"
+        type="text"
+        value=""
+      />
+      <button
+        class="sc-gKsewC lhipNb"
+        type="button"
+      >
+        <img
+          alt="search icon"
+          src="ic_search.png"
+        />
+      </button>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`<Home /> should render feedback message without repositories 1`] = `
+<header
+  class="sc-bdfBwQ kPbOlh"
+>
+  <div
+    class="sc-gsTCUz MTRHF"
+  >
+    <a
+      class="sc-hKgILt hgZrkL"
+      href="/"
+    >
+      <img
+        alt="github"
+        class="sc-dlfnbm fyZCaB"
+        src="logo.png"
+      />
+    </a>
+    <div
+      class="sc-eCssSg bbORJx"
+    >
+      <input
+        class="sc-jSgupP eEVRcm"
+        name="userName"
+        placeholder="Search User"
+        type="text"
+        value=""
+      />
+      <button
+        class="sc-gKsewC lhipNb"
+        type="button"
+      >
+        <img
+          alt="search icon"
+          src="ic_search.png"
+        />
+      </button>
+    </div>
+  </div>
+</header>
+`;

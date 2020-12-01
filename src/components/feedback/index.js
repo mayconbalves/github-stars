@@ -1,4 +1,5 @@
 import React from 'react'
+import { string } from 'prop-types'
 import {
   Container,
   Title,
@@ -24,6 +25,10 @@ const Feedback = ({ message }) => {
       )}
     </Container>
   )
+}
+
+Feedback.propTypes = {
+  message: string.isRequired
 }
 
 export default Feedback

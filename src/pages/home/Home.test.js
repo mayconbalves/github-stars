@@ -1,8 +1,29 @@
 import { render, screen } from '@testing-library/react'
-import Home from '.'
+import { MemoryRouter } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import configureStore from 'redux-mock-store'
+import thunk from 'redux-thunk'
+import Home from './'
 
-test('renders home title', () => {
-  render(<Home />)
-  const title = screen.getByText(/hello world/)
-  expect(title).toBeInTheDocument()
+describe('<Home />', () => {
+  const mockStore = configureStore([thunk])
+  let store
+  store = mockStore({
+    repositoriesReducer: { repos: [] }
+  })
+
+  it('should render feedback message without repositories', () => {
+    const { container } = render(
+      <MemoryRouter>
+        <Provider store={store}>
+          <Home />
+        </Provider>
+      </MemoryRouter>
+    )
+
+    expect(
+      screen.getByRole('heading', { title: 'No repository found' })
+    ).toBeInTheDocument()
+    expect(container.firstChild).toMatchSnapshot()
+  })
 })

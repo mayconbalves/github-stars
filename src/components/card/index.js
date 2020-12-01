@@ -51,6 +51,8 @@ const Card = ({ cloneUrl, license, stars, title }) => {
 }
 
 Card.propTypes = {
+  cloneUrl: string.isRequired,
+  license: string,
   stars: number,
   title: string.isRequired
 }
