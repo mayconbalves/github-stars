@@ -9,7 +9,8 @@ describe('<Home />', () => {
   const mockStore = configureStore([thunk])
   let store
   store = mockStore({
-    repositoriesReducer: { repos: [] }
+    repositoriesReducer: { repos: [] },
+    spinnerReducer: { loading: [] }
   })
 
   it('should render feedback message without repositories', () => {

@@ -5,11 +5,14 @@ import { fetchRepos } from './action'
 import { useSelector } from 'react-redux'
 import { Grid } from './styled'
 import Feedback from 'components/feedback'
+import Spinner from 'components/spinner'
 
 const Home = () => {
   const repositories = useSelector((state) => state.repositoriesReducer.repos)
+  const loading = useSelector((state) => state.spinnerReducer.loading)
   return (
     <>
+      {loading && <Spinner />}
       <Header handleRepositories={fetchRepos} />
       <Grid>
         {repositories.length === 0 && (

@@ -4,7 +4,9 @@ import Card from './'
 describe('<Card />', () => {
   let props = {
     cloneUrl: 'https://github.com/mayconbalves/app-go-barber.git',
-    license: 'MIT license',
+    license: {
+      name: 'MIT license'
+    },
     stars: 1,
     title: 'app go barber'
   }

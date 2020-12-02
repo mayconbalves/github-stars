@@ -56,7 +56,7 @@ exports[`<Card /> should render first title 1`] = `
         <p
           class="sc-fubCfw eulNsP"
         >
-          None
+          MIT license
         </p>
       </li>
     </ul>
@@ -120,7 +120,7 @@ exports[`<Card /> should render subtitle 1`] = `
         <p
           class="sc-fubCfw eulNsP"
         >
-          None
+          MIT license
         </p>
       </li>
     </ul>
