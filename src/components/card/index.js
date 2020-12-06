@@ -1,5 +1,5 @@
 import React from 'react'
-import { number, string } from 'prop-types'
+import { number, string, object } from 'prop-types'
 import emptyStar from 'assets/empty_star.png'
 import fullStar from 'assets/full_star.png'
 import {
@@ -52,7 +52,7 @@ const Card = ({ cloneUrl, license, stars, title }) => {
 
 Card.propTypes = {
   cloneUrl: string.isRequired,
-  license: string,
+  license: object,
   stars: number,
   title: string.isRequired
 }

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> should render Spinner 1`] = `
+<div
+  class="sc-bdfBwQ gZPsER"
+  data-testid="spinner"
+>
+  <div
+    class="sc-gsTCUz bwgWST"
+  />
+</div>
+`;
