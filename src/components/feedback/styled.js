@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import astronaut from 'assets/background.jpg'
+import astronaut from 'assets/background.png'
 
 export const Container = styled.div`
   background-image: url(${astronaut});
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #e5e5e5;
   height: 85vh;
   display: flex;
   align-items: center;

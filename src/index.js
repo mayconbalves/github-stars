@@ -12,7 +12,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     font-family: Arial, sans-serif;
-    text-decoration: none;
   }
 `
 
