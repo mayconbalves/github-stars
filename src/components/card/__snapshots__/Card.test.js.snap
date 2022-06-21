@@ -2,59 +2,59 @@
 
 exports[`<Card /> should render first title 1`] = `
 <div
-  class="sc-bdfBwQ kpFlCc"
+  class="sc-bczRLJ boaqlq"
 >
   <div
-    class="sc-gsTCUz eptAzo"
+    class="sc-gsnTZi cFsllk"
   >
     <div
-      class="sc-dlfnbm dSCSBh"
+      class="sc-dkzDqf kOfCRZ"
     >
       <p>
         app go barber
       </p>
     </div>
     <div
-      class="sc-hKgILt jbBhkH"
+      class="sc-hKMtZM jsAREC"
     >
       <p>
         1
       </p>
       <img
         alt="full star"
-        class="sc-eCssSg bTrOV"
+        class="sc-eCYdqJ kqdWNC"
         src="full_star.png"
       />
     </div>
   </div>
   <div
-    class="sc-jSgupP cXdENn"
+    class="sc-jSMfEi ydOJn"
   >
     <ul>
       <li
-        class="sc-gKsewC gIrsof"
+        class="sc-gKXOVf yugzP"
       >
         <h1
-          class="sc-iBPRYJ fgpkrE"
+          class="sc-iBkjds eRPyFe"
         >
           Clone repo:
         </h1>
         <p
-          class="sc-fubCfw eulNsP"
+          class="sc-ftvSup dOkZEn"
         >
           https://github.com/mayconbalves/app-go-barber.git
         </p>
       </li>
       <li
-        class="sc-gKsewC gIrsof"
+        class="sc-gKXOVf yugzP"
       >
         <h1
-          class="sc-iBPRYJ fgpkrE"
+          class="sc-iBkjds eRPyFe"
         >
           License type:
         </h1>
         <p
-          class="sc-fubCfw eulNsP"
+          class="sc-ftvSup dOkZEn"
         >
           MIT license
         </p>
@@ -66,59 +66,59 @@ exports[`<Card /> should render first title 1`] = `
 
 exports[`<Card /> should render subtitle 1`] = `
 <div
-  class="sc-bdfBwQ kpFlCc"
+  class="sc-bczRLJ boaqlq"
 >
   <div
-    class="sc-gsTCUz eptAzo"
+    class="sc-gsnTZi cFsllk"
   >
     <div
-      class="sc-dlfnbm dSCSBh"
+      class="sc-dkzDqf kOfCRZ"
     >
       <p>
         app go barber
       </p>
     </div>
     <div
-      class="sc-hKgILt jbBhkH"
+      class="sc-hKMtZM jsAREC"
     >
       <p>
         1
       </p>
       <img
         alt="full star"
-        class="sc-eCssSg bTrOV"
+        class="sc-eCYdqJ kqdWNC"
         src="full_star.png"
       />
     </div>
   </div>
   <div
-    class="sc-jSgupP cXdENn"
+    class="sc-jSMfEi ydOJn"
   >
     <ul>
       <li
-        class="sc-gKsewC gIrsof"
+        class="sc-gKXOVf yugzP"
       >
         <h1
-          class="sc-iBPRYJ fgpkrE"
+          class="sc-iBkjds eRPyFe"
         >
           Clone repo:
         </h1>
         <p
-          class="sc-fubCfw eulNsP"
+          class="sc-ftvSup dOkZEn"
         >
           https://github.com/mayconbalves/app-go-barber.git
         </p>
       </li>
       <li
-        class="sc-gKsewC gIrsof"
+        class="sc-gKXOVf yugzP"
       >
         <h1
-          class="sc-iBPRYJ fgpkrE"
+          class="sc-iBkjds eRPyFe"
         >
           License type:
         </h1>
         <p
-          class="sc-fubCfw eulNsP"
+          class="sc-ftvSup dOkZEn"
         >
           MIT license
         </p>

@@ -2,18 +2,18 @@
 
 exports[`<Feedback /> should render message 1`] = `
 <div
-  class="sc-bdfBwQ iEzmmU"
+  class="sc-bczRLJ hBXA-DS"
 >
   <div
-    class="sc-gsTCUz jDbBII"
+    class="sc-gsnTZi iFAjSo"
   >
     <img
       alt="Not Found"
-      class="sc-hKgILt hvYITf"
+      class="sc-hKMtZM jFNCiu"
       src="not_found.png"
     />
     <h1
-      class="sc-dlfnbm exMniP"
+      class="sc-dkzDqf kFxjqL"
     >
       Not Found
     </h1>

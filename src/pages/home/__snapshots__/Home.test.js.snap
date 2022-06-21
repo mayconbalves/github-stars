@@ -2,11 +2,11 @@
 
 exports[`<Home /> should render feedback message without repositories 1`] = `
 <div
-  class="sc-hHftDr ehMRgB"
+  class="sc-hHLeRK cDrhdM"
   data-testid="spinner"
 >
   <div
-    class="sc-dmlrTW hKcIyL"
+    class="sc-dmRaPn fkxFoO"
   />
 </div>
 `;
