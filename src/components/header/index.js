@@ -2,15 +2,7 @@ import React, { useState } from 'react'
 import logo from 'assets/logo.png'
 import searchIcon from 'assets/ic_search.png'
 import { useDispatch } from 'react-redux'
-import {
-  Container,
-  SearchContainer,
-  StyledLogo,
-  InputContainer,
-  InputStyled,
-  SearchButton,
-  StyledLink
-} from './styled'
+import * as S from './styled'
 
 const Header = ({ handleRepositories }) => {
   const dispatch = useDispatch()
@@ -38,13 +30,13 @@ const Header = ({ handleRepositories }) => {
   }
 
   return (
-    <Container as="header">
-      <SearchContainer>
-        <StyledLink to="/">
-          <StyledLogo src={logo} alt="github" />
-        </StyledLink>
-        <InputContainer>
-          <InputStyled
+    <S.Container as="header">
+      <S.SearchContainer>
+        <S.StyledLink to="/">
+          <S.StyledLogo src={logo} alt="github" />
+        </S.StyledLink>
+        <S.InputContainer>
+          <S.InputStyled
             name="userName"
             type="text"
             value={values.userName}
@@ -52,12 +44,12 @@ const Header = ({ handleRepositories }) => {
             onKeyDown={handleKeyDown}
             placeholder="Search User"
           />
-          <SearchButton type="button" onClick={() => submitForm()}>
+          <S.SearchButton type="button" onClick={submitForm}>
             <img src={searchIcon} alt="search icon" />
-          </SearchButton>
-        </InputContainer>
-      </SearchContainer>
-    </Container>
+          </S.SearchButton>
+        </S.InputContainer>
+      </S.SearchContainer>
+    </S.Container>
   )
 }
 

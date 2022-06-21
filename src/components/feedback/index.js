@@ -1,29 +1,22 @@
 import React from 'react'
 import { string } from 'prop-types'
-import {
-  Container,
-  Title,
-  WrapperMessage,
-  StyledImg,
-  GenericMessage,
-  GenericTitle
-} from './styled'
+import * as S from './styled'
 import notFound from 'assets/not_found.png'
 
 const Feedback = ({ message }) => {
   return (
-    <Container>
+    <S.Container>
       {message === 'Not Found' ? (
-        <WrapperMessage>
-          <StyledImg src={notFound} alt={message} />
-          <Title>{message}</Title>
-        </WrapperMessage>
+        <S.Message>
+          <S.Img src={notFound} alt={message} />
+          <S.Title>{message}</S.Title>
+        </S.Message>
       ) : (
-        <GenericMessage>
-          <GenericTitle>{message}</GenericTitle>
-        </GenericMessage>
+        <S.GenericMessage>
+          <S.GenericTitle>{message}</S.GenericTitle>
+        </S.GenericMessage>
       )}
-    </Container>
+    </S.Container>
   )
 }
 

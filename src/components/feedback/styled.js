@@ -10,9 +10,10 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 `
 
-export const WrapperMessage = styled.div`
+export const Message = styled.div`
   display: flex;
   background-color: #fff;
   height: 200px;
@@ -37,10 +38,10 @@ export const Title = styled.h1`
   }
 `
 
-export const StyledImg = styled.img`
+export const Img = styled.img`
   @media (max-width: 540px) {
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 500px;
     margin: 30px 0;
   }
 `
